@@ -7,5 +7,8 @@
     - Bootstrap 4.3.1.
     - JQuery 3.3.1.
     - Fontawesome 4.
-   
-   ***Link demo: [[https://saint1411.github.io/webstie-cloudmedia/](https://saint1411.github.io/template-cloudmedia/)](https://saint1411.github.io/template-cloudmedia/)https://saint1411.github.io/template-cloudmedia/
+   https://saint1411.github.io/template-cloudmedia/
+   ***Link demo: <a href="https://saint1411.github.io/template-cloudmedia/" target="_blank"
+                  style="text-decoration: none; color: green;">
+                   Click in here!
+      </a>
