@@ -1,0 +1,19 @@
+.contact-title {
+    background-color: #0e80c3;
+}
+
+.contact-form-custom {
+    background-color: #F6FCFF;
+}
+
+.contact-form form input, .contact-form form textarea {
+    border: 1px solid #0e80c3;
+}
+
+.contact-form-custom h4, .contact-form h5 {
+    color: #0e80c3;
+}
+
+.contact-form-custom input::placeholder, .contact-form-custom textarea::placeholder {
+    color: #0e80c3;
+}

@@ -1,0 +1,279 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: Arial, Helvetica, sans-serif !important; 
+    font-weight: 700 !important;
+}
+
+a, p {
+    font-family: Arial, Helvetica, sans-serif !important; 
+    font-weight: 400;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+.header {
+    background-color: #0e80c3 !important;
+    height: 40px;
+}
+
+.header button {
+    border-radius: 3px; 
+    height: fit-content; 
+    color: #0e80c3; 
+    font-size: 10px;
+}
+
+.vl {
+    border-left: 2px solid white;
+    height: 17px;
+    margin: 0 10px;
+}
+
+.navbar-toggler-icon {
+    background-image: url(
+    "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(12, 131, 196)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+.navigation ul li a:hover {
+    color: #0e80c3 !important;
+}
+
+.navigation .navbar-brand img {
+    height: 35px;
+    width: auto;
+}
+
+.navbar-nav .nav-item a {
+    font-size: 14px;
+}
+#carouselExampleIndicators .carousel-caption {
+    margin-bottom: 150px !important;
+    margin-left: 50px !important;
+}
+
+.carousel-caption a {
+    border: white 1px solid;
+    color: white;
+    background-color: #f37a20;
+}
+
+.carousel-control-prev,.carousel-control-next {
+    font-size: 1.5em;
+}
+
+.carousel-item .carousel-caption-mobile {
+    left: -8%;
+    right: 8%;
+}
+
+.carousel-indicators li {
+    background-color: transparent;
+    border: 2px solid white; /* Màu sắc của border */
+    border-radius: 50%; /* Để biến dấu chấm thành hình tròn */
+    width: 12px; /* Đường kính của hình tròn */
+    height: 12px; /* Đường kính của hình tròn */
+    margin: 5px; /* Khoảng cách giữa các hình tròn */
+}
+  
+.carousel-indicators .active {
+    background-color: white;
+}
+
+.about-us p {
+    color: #525c64;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.btn-play {
+    background-color: #0e80c3; 
+    border: 3px solid white ;
+    height: 75px; 
+    width: 75px; 
+    top: 35%; 
+    z-index: 1;
+    left: 0;
+}
+
+.service{
+    background-image: url('../img/banner-backgound-dich-vu.png');
+    background-size: cover;
+}
+
+.service img {
+    max-width: 10%;
+    height: auto;
+}
+
+.dot-title {
+    color: #279EFF;
+    font-size: 16px;
+    line-height: 0px;
+    letter-spacing: 0px;
+}
+
+
+.prev-btn{
+    top: 50%;
+    left: -3%;
+    position: absolute;
+    color:#0e80c3;
+    font-size: 25px;
+}
+
+.next-btn{
+    top: 50%;
+    right: -3%;
+    position: absolute;
+    color:#0e80c3;
+    font-size: 25px;
+}
+
+.infor-bar  {
+    background-color: #0e80c3;
+    color: #FFFFFF;
+}
+
+.infor-bar button, .contact form button {
+    border: white 1px solid;
+    color: white;
+    background-color: #f37a20;
+    padding: 8px 14px;
+    border-radius: 6px;
+}
+
+.custom-placeholder::placeholder {
+    color: #FFFFFF;
+    /* border: 1px solid #FFFFFF; */
+}
+
+.infor-bar input {
+    border-radius: 6px;
+    border: white 1px solid;
+}
+
+.company-infor {
+    background-color: #0e80c3;
+}
+
+.side-border {
+    border-left: 2px solid rgba(255, 255, 255, 0.3)
+}
+
+.contact {
+    background-image: url('../img/banner-backgound-lien-he.png');
+    background-size: cover;
+}
+
+.contact form input::placeholder {
+    color: white;
+}
+
+.contact form textarea::placeholder {
+    color: white;
+}
+
+.footer {
+    background-color: #212121;
+}
+
+.footer a, p {
+    line-height: 1.5;
+}
+
+.copyright {
+    background-color: #0e80c3;
+}
+
+.card-body-custom, .logo-partner {
+    background-color: #F6FCFF;
+}
+
+.carousel-item img {
+    height: 75vh;
+}
+
+.footer p, .footer a {
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer h4 {
+    font-size: 16px;
+}
+
+.footer-icon i:hover {
+    color: #0e80c3;
+}
+
+.navigation-mobile {
+    background-color: #0e80c3;
+}
+
+.navbar-mobile-show button span{
+    font-size: 3rem;
+    color: #FFFFFF !important;
+    font-weight: 600;
+}
+
+#infor-menu-mobile {
+    border-top: 1px solid #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+@media (max-width: 600px) {
+    .prev-btn{
+        left: 3% !important;
+    }
+    
+    .next-btn{
+        right: 3% !important;
+    }
+
+    .infor-detail {
+        padding: 10px 0 !important;
+    }
+
+    .service .container .row .col-12 {
+        padding: 0;
+        margin-top: 30px;
+    }
+
+    .culture-content {
+        padding-left: 1rem !important;
+    }
+
+    .culture-intro .dot-title {
+        margin-bottom: 0 !important;
+    }
+
+    .culture-intro img {
+        margin-bottom: 2rem;
+    }
+
+    .vmcv {
+        border: 1px solid #0e80c3;
+        background-color: #FFFFFF;
+        color: #000000;
+    }
+    
+    .service {
+        background-image: url('../img/mobile/bg-erp-mb.png');
+        background-size: cover;
+    }
+
+    .vision-mission-core-values {
+        background-image: url('../img/mobile/bg-erp-mobile.png') !important;
+        background-size: cover;
+    }
+
+}
+
+@media (max-width: 1180px) {
+    .navigation ul li a {
+        font-size: 12px !important;
+    }
+}
